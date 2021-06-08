@@ -29,7 +29,20 @@ public class GitDemo {
      *****/
     public void templateFunction(int num) {
         
-        /** Code goes here **/
+ double factorialNumber=0;
         
+        while (num!=0)
+        {
+            double temp = num % 10;
+            
+            factorialNumber= factorialNumber*10 +temp;
+            
+            num /= 10;
+            
+        }
+        
+   
+    return factorialNumber;
+    
     }
 }
